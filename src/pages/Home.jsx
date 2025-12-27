@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Center from "../home/Center";
-import Bottom from "../home/bottom";
+import Bottom from "../home/Bottom";
 import TextType from "../component/TextType";
 
 
