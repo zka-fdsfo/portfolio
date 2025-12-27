@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Main from "./Pages/Main";
-import Other from "./Pages/Other";
+import Main from "./pages/main";
+import Other from "./pages/Other";
 import Tnav from "./nav/Tnav";
 
 const App = () => {
