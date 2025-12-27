@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Base */
+html,
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #000;
+}
+
+
+/* Faster + smoother tech scroll */
+@keyframes tech-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 80px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ef444400; /* red */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+
+/* Icon styling */
+.tech-strip svg {
+  opacity: 0.5;              /* transparent look */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.tech-strip svg:hover {
+  opacity: 1;
+  color: #ef4444;            /* Tailwind red-500 */
+  transform: scale(1.15);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.96);
+  }
+  to {
+    opacity: 0.5;
+    transform: translateY(0) scale(1);
+  }
+}
+
