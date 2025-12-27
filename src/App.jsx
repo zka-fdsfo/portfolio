@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Main from "./pages/main";
+import Main from "./pages/Main";
 import Other from "./pages/Other";
 import Tnav from "./nav/Tnav";
 
